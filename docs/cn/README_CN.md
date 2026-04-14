@@ -192,6 +192,10 @@ npm run dev
 
 [查看 Cloudflare 部署指南](./cloudflare-deploy.md)
 
+### 在 Ubuntu 上部署
+
+[查看 Ubuntu 部署指南](./ubuntu-deployment.md)
+
 
 ## 多提供商支持
 
