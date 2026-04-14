@@ -48,7 +48,7 @@ cp env.example .env
 - 对应提供商的 API Key，例如 `OPENAI_API_KEY`
 - 如果配置了多个提供商，再显式设置 `AI_PROVIDER`
 
-可参考 `/home/runner/work/next-ai-draw-io/next-ai-draw-io/docs/cn/ai-providers.md`。
+可参考 [`./ai-providers.md`](./ai-providers.md)。
 
 ### 3. 直接运行官方镜像
 
@@ -108,7 +108,7 @@ cp env.example .env
 
 填写 AI 模型配置后，再修改 `docker-compose.yml` 中的构建参数。
 
-仓库自带的 `/home/runner/work/next-ai-draw-io/next-ai-draw-io/docker-compose.yml` 已包含：
+仓库根目录自带的 `docker-compose.yml` 已包含：
 
 ```yaml
 services:
@@ -154,7 +154,7 @@ docker compose up -d --build
 - 这个值必须是**用户浏览器能直接访问**的地址
 - **不要填写** `http://drawio:8080` 这类 Docker 内部服务名
 
-如需更多背景说明，可参考 `/home/runner/work/next-ai-draw-io/next-ai-draw-io/docs/cn/offline-deployment.md`。
+如需更多背景说明，可参考 [`./offline-deployment.md`](./offline-deployment.md)。
 
 ---
 
